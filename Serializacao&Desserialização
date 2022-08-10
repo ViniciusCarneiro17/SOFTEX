@@ -35,13 +35,14 @@ class Rodandoteste
             obj.close();
             arquivo.close();
 
-            System.out.println("Objeto foi serializado")
+            System.out.println("Objeto foi serializao");
 
         }
 
         catch(IOException ex)
         {
-            System.out.println("Captura de exceção")
+            System.out.println("captura de exceção");
+            
         }
 
 
@@ -68,12 +69,13 @@ class Rodandoteste
 
         catch(IOException ex)
         {
-            Sytem.out.println("captura de exceção")
+            Sytem.out.println("captura de exceção");
         }
 
         catch(ClassNotFoundException ex)
         {
-            System.out.println("cptura de exceção para classe não encontrada")
+            System.out.println("cptura de exceção para classe não encontrada");
+            
         }
 
 Saída: 
