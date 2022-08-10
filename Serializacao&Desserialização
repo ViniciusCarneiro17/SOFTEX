@@ -60,19 +60,20 @@ class Rodandoteste
             obj.close();
             arquivo.close();
 
-            System.obj.println("Objeto foi desserializado");
-            System.obj.println("teste_a = " + objeto1.teste_a);
-            System.obj.println("teste_b = " + objeto1.teste_b);
+            System.out.println("Objeto foi desserializado");
+            System.out.println("teste_a = " + objeto1.teste_a);
+            System.out.println("teste_b = " + objeto1.teste_b);
+
         }
 
         catch(IOException ex)
         {
-            System.obj.println("IOException");
+            Sytem.out.println("captura de exceção")
         }
 
         catch(ClassNotFoundException ex)
         {
-            System.obj.println("ClassNotFoundException");
+            System.out.println("cptura de exceção para classe não encontrada")
         }
 
 Saída: 
