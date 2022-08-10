@@ -35,13 +35,13 @@ class Rodandoteste
             obj.close();
             arquivo.close();
 
-            System.obj.println("Objeto foi serializado");
+            System.out.println("Objeto foi serializado")
 
         }
 
         catch(IOException ex)
         {
-            System.obj.println("IOException is caught");
+            System.out.println("Captura de exceção")
         }
 
 
